@@ -19,18 +19,18 @@
  * Moodle's new Bootstrap theme engine
  *
  *
- * @package   theme_essential
+ * @package   theme_urep
  * @copyright 2014 Evgeniy Yuzhakov
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 20140428;        // YYYYMMDD.
+$plugin->version   = 20140521;        // YYYYMMDD.
 $plugin->maturity = MATURITY_STABLE;             // this version's maturity level.
-$plugin->release = '0.1 (Build: 20140428)';
-$plugin->requires  = 2013111800;        // Requires Moodle 2.6.
+$plugin->release = '0.9 (Build: 20140521)';
+$plugin->requires  = 2014051200;        // Requires Moodle 2.7.
 $plugin->component = 'theme_urep';
 $plugin->dependencies = array(
-    'theme_bootstrapbase'  => 2013050100,
+    'theme_bootstrapbase'  => 2014051200,
 );
