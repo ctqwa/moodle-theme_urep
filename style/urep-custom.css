@@ -269,7 +269,7 @@ h3 {
 
 .no-overflow img:not(.texrender):not(.iconsmall):not(.iconhelp):not(.icon):not(.comment-link):not(.smallicon), .resourceimage {
     border: 1px solid rgba(23, 23, 23, 0.15);
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     margin: 10px 0;
     background: white;
 }

@@ -96,7 +96,7 @@ echo $OUTPUT->doctype() ?>
         <?php
         $COURSEFULLNAME = $COURSE->fullname;
          if ($COURSE->id == 1) {
-            $COURSEFULLNAME = 'На главную страницу';
+            $COURSEFULLNAME = 'Главная страница';
         }
         ?>
 
