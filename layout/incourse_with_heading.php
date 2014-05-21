@@ -54,7 +54,7 @@ echo $OUTPUT->doctype() ?>
     <script type="text/javascript"> 
         $(document).ready(function() {
                      
-            $('.no-overflow img:not(.texrender), .resourceimage').on('click', function(){
+            $('.no-overflow img:not(.texrender):not(.iconsmall):not(.iconhelp):not(.icon):not(.comment-link):not(.smallicon), .resourceimage').on('click', function(){
                 var screenTop = $(document).scrollTop();
                 $(this).toggleClass("dialog");     
                 $('.dialog').css('top', screenTop);   
