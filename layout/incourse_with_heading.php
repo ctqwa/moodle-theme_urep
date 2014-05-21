@@ -82,7 +82,7 @@ echo $OUTPUT->doctype() ?>
             <div class="nav-collapse collapse mainnav">
                 <?php echo $OUTPUT->custom_menu(); ?>
                 <ul class="nav pull-right">
-                    <li class="navbar-text"><?php if (!isloggedin()) {
+                    <li class="navbar-text"><?php if (!isloggedin() || isguestuser()) {
                         echo $OUTPUT->login_info();
                         echo '<style>.mainnav .nav {width:auto}</style>'; 
                     } ?></li>

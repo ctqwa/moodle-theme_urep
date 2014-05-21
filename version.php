@@ -30,7 +30,7 @@ defined('MOODLE_INTERNAL') || die;
 $plugin->version   = 20140521;        // YYYYMMDD.
 $plugin->maturity = MATURITY_STABLE;             // this version's maturity level.
 $plugin->release = '0.9 (Build: 20140521)';
-$plugin->requires  = 20140521051200;        // Requires Moodle 2.7.
+$plugin->requires  = 2014051200;        // Requires Moodle 2.7.
 $plugin->component = 'theme_urep';
 $plugin->dependencies = array(
     'theme_bootstrapbase'  => 2014051200,
