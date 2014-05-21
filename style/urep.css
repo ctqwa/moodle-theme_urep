@@ -252,10 +252,10 @@ ul.socials {
 
 /* @end */
 
-.dropdown-menu > li > a,
+/*.dropdown-menu > li > a,
 .dropdown-menu > li > a:visited {
     color: #333;
-}
+}*/
 
 /* @group Custom Menu */
 .dropdown-menu > li > a:hover,
