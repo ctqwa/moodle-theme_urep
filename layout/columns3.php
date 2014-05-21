@@ -20,7 +20,7 @@
  * @package    theme
  * @subpackage Urep
  * @author     Evgeniy Yuzhakov
- * @author     Based on code originally written Julian (@moodleman) Ridden by G J Bernard, Mary Evans, Bas Brands, Stuart Lamour and David Scotson.
+ * @author     Based on code originally written by Julian (@moodleman) Ridden by G J Bernard, Mary Evans, Bas Brands, Stuart Lamour and David Scotson.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

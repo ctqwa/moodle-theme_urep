@@ -20,7 +20,8 @@
  *
  *
  * @package   theme_urep
- * @copyright 2014 Evgeniy Yuzhakov
+ * @author    Evgeniy Yuzhakov
+ * @author    Based on code originally written by Franc Pombal, Julian (@moodleman) Ridden G J Bernard, Mary Evans, Bas Brands, Stuart Lamour and David Scotson.
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  
