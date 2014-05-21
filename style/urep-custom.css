@@ -5,8 +5,18 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  
+
+.block_online_users .content .list li.listentry .message {
+    margin-top: 0px;
+}
+
+.block_online_users .content .list li.listentry .message img.iconsmall{
+    padding: 0px;
+}
+
+
 #page-mod-quiz-edit .editq div.question div.description div.content .questiontext {
-max-width: 65%;
+    max-width: 65%;
 }
 
 #frontpage-course-list {
