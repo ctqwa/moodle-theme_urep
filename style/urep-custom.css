@@ -552,6 +552,8 @@ border: 0px;
 }
 .forumpost .subject {
     color: #444;
+    margin-bottom: 0px;
+    font-size: 16px;
 }
 #page-footer .footnote a:hover {
     text-decoration: underline;
