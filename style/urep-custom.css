@@ -537,15 +537,18 @@ body {
     content: "";
     cursor: move;   
     margin-right:10px;
-color: #999;
+    color: #999;
 }
 .breadcrumb-button input[type="submit"] {
     margin: 0;
 }
-.dropdown-menu em {     font-style: normal; 
+.dropdown-menu em {     
+    font-style: normal; 
+
 }
+
 .nav-collapse {
-border: 0px;
+    border: 0px;
 }
 .row {
     background-color: inherit;
@@ -1114,9 +1117,9 @@ a.logo {
 }
 
 
-.modified {
+/*.modified {
     display: none;
-}
+}*/
 
 .category {
   width: 48%;
