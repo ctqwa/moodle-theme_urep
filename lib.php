@@ -864,7 +864,7 @@ function theme_urep_page_init(moodle_page $page) {
     $page->requires->jquery_plugin('cslider', 'theme_urep');
     $page->requires->jquery_plugin('custom', 'theme_urep'); 
     $page->requires->jquery_plugin('alert', 'theme_urep');
-    $page->requires->jquery_plugin('carousel', 'theme_urep');
+    // $page->requires->jquery_plugin('carousel', 'theme_urep');
     $page->requires->jquery_plugin('collapse', 'theme_urep');
     $page->requires->jquery_plugin('modal', 'theme_urep');
     $page->requires->jquery_plugin('scrollspy', 'theme_urep');
