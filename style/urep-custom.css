@@ -78,6 +78,18 @@
 margin-bottom: 10px;
 }
 
+.gradingtable ul li:before {
+    content: inherit !important;
+   color: inherit !important;
+}
+.gradingtable ul li {
+   list-style: inherit !important;
+}
+
+.gradingtable li, .gradingtable ul {
+  margin-bottom: inherit !important;
+}
+
 .coursename-teacher .userpicture {
     margin-left: -42px;
     margin-bottom: -17px;
@@ -255,7 +267,7 @@ h3 {
     /*max-width: unset;*/
 }
 
-.no-overflow img:not(.texrender):not(.iconsmall):not(.iconhelp):not(.icon):not(.comment-link):not(.smallicon):hover, .resourceimage:hover {
+.no-overflow img:not(.texrender):not(.iconsmall):not(.iconhelp):not(.icon):not(.userpicture):not(.smallicon):hover, .resourceimage:hover {
     cursor: zoom-in;
     cursor: -webkit-zoom-in;
 }
@@ -278,11 +290,23 @@ h3 {
   padding: 0 !important;;
 }
 
-.no-overflow img:not(.texrender):not(.iconsmall):not(.iconhelp):not(.icon):not(.comment-link):not(.smallicon), .resourceimage {
+.no-overflow img:not(.texrender):not(.iconsmall):not(.iconhelp):not(.icon):not(.smallicon):not(.userpicture), .resourceimage {
     border: 1px solid rgba(23, 23, 23, 0.15);
     margin: 10px 0;
     background: white;
 }
+
+.gradingtable img {
+    border: none !important;
+    margin: inherit !important;
+    background: none !important;
+}
+
+.gradingtable img:hover {
+      cursor: inherit !important;
+}
+
+
 table#user-grades td.controls, .path-grade-report-grader table tr.avg .cell, .path-grade-report-grader table tr.range .cell {
     background-color: initial;
 }
