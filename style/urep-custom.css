@@ -71,16 +71,16 @@
 
 .no-overflow ul li:before {
     content: "— ";
-  color: #999;
+    color: #999;
 }
 
 .no-overflow ul {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .gradingtable ul li:before {
     content: inherit !important;
-   color: inherit !important;
+    color: inherit !important;
 }
 .gradingtable ul li {
    list-style: inherit !important;
@@ -267,7 +267,7 @@ h3 {
     /*max-width: unset;*/
 }
 
-.no-overflow img:not(.texrender):not(.iconsmall):not(.iconhelp):not(.icon):not(.userpicture):not(.smallicon):hover, .resourceimage:hover {
+.no-overflow img:not(.texrender):not(.iconsmall):not(.iconhelp):not(.spacer):not(.icon):not(.userpicture):not(.smallicon):hover, .resourceimage:hover {
     cursor: zoom-in;
     cursor: -webkit-zoom-in;
 }
@@ -290,7 +290,7 @@ h3 {
   padding: 0 !important;;
 }
 
-.no-overflow img:not(.texrender):not(.iconsmall):not(.iconhelp):not(.icon):not(.smallicon):not(.userpicture), .resourceimage {
+.no-overflow img:not(.texrender):not(.iconsmall):not(.iconhelp):not(.spacer):not(.icon):not(.smallicon):not(.userpicture), .resourceimage {
     border: 1px solid rgba(23, 23, 23, 0.15);
     margin: 10px 0;
     background: white;
@@ -306,6 +306,13 @@ h3 {
       cursor: inherit !important;
 }
 
+.gradingtable .dialog {
+    cursor: initial !important;
+    z-index: initial !important;
+    left: initial !important;
+    position: initial!important;
+    box-shadow: initial !important;
+}
 
 table#user-grades td.controls, .path-grade-report-grader table tr.avg .cell, .path-grade-report-grader table tr.range .cell {
     background-color: initial;
